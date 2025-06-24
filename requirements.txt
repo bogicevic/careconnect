@@ -1,0 +1,76 @@
+# CareConnect Multi-Agent System Dependencies
+
+# Google ADK (Agent Development Kit)
+google-adk>=1.0.0
+
+# Google Cloud dependencies
+google-cloud-aiplatform>=1.38.0
+google-cloud-secretmanager>=2.16.0
+google-cloud-pubsub>=2.18.0
+google-cloud-bigquery>=3.11.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.1.0
+
+# Google APIs
+google-api-python-client>=2.100.0
+google-api-core>=2.11.0
+
+# Gemini AI
+google-generativeai>=0.3.0
+
+# Communication and notifications
+twilio>=8.5.0
+sendgrid>=6.10.0
+
+# Web framework and API
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.4.0
+httpx>=0.25.0
+
+# Database (for production use)
+psycopg2-binary>=2.9.7
+sqlalchemy>=2.0.0
+alembic>=1.12.0
+
+# Async support
+asyncio>=3.4.3
+aiohttp>=3.8.0
+aiofiles>=23.2.0
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Logging and monitoring
+structlog>=23.1.0
+python-json-logger>=2.0.7
+
+# Environment and configuration
+python-dotenv>=1.0.0
+pydantic-settings>=2.0.0
+
+# Date and time handling
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Testing (development)
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-mock>=3.11.0
+
+# Code quality (development)
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Security
+cryptography>=41.0.0
+bcrypt>=4.0.0
+
+# Utilities
+requests>=2.31.0
+pyyaml>=6.0.1
+click>=8.1.0
+rich>=13.5.0
